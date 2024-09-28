@@ -1,0 +1,24 @@
+{
+  "Cu2stU": {
+    "translation": "こんにちは",
+    "message": "こんにちは",
+    "comments": [],
+    "origin": [
+      [
+        "src/app/[lang]/page.tsx",
+        7
+      ]
+    ]
+  },
+  "WeBsyq": {
+    "translation": "ホーム",
+    "message": "ホーム",
+    "comments": [],
+    "origin": [
+      [
+        "src/app/[lang]/layout.tsx",
+        20
+      ]
+    ]
+  }
+}
