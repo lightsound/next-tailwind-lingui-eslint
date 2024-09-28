@@ -1,12 +1,45 @@
 {
-  "Cu2stU": {
-    "translation": "Hello",
-    "message": "こんにちは",
+  "o4JQws": {
+    "translation": "{count, plural, =0 {There are no apples.} =1 {There is one apple.} other {There are # apples.}}",
+    "message": "{count, plural, =0 {りんごが1つもありません} =1 {りんごが # 個あります} other {りんごが # 個あります}}",
     "comments": [],
     "origin": [
       [
-        "src/app/[lang]/page.tsx",
-        7
+        "src/component/Greeting.tsx",
+        32
+      ]
+    ]
+  },
+  "/8oksJ": {
+    "translation": "Good morning",
+    "message": "おはよう",
+    "comments": [],
+    "origin": [
+      [
+        "src/component/Greeting.tsx",
+        12
+      ]
+    ]
+  },
+  "oPppWr": {
+    "translation": "Hello, <0>{name}</0>!",
+    "message": "こんにちは、<0>{name}</0>さん",
+    "comments": [],
+    "origin": [
+      [
+        "src/component/Greeting.tsx",
+        18
+      ]
+    ]
+  },
+  "QIa4tO": {
+    "translation": "Good evening",
+    "message": "こんばんは",
+    "comments": [],
+    "origin": [
+      [
+        "src/component/Greeting.tsx",
+        28
       ]
     ]
   },
@@ -17,7 +50,7 @@
     "origin": [
       [
         "src/app/[lang]/layout.tsx",
-        20
+        22
       ]
     ]
   }

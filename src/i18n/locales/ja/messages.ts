@@ -1,1 +1,1 @@
-/*eslint-disable*/import type{Messages}from"@lingui/core";export const messages=JSON.parse("{\"Cu2stU\":\"こんにちは\",\"WeBsyq\":\"ホーム\"}")as Messages;
+/*eslint-disable*/import type{Messages}from"@lingui/core";export const messages=JSON.parse("{\"o4JQws\":[[\"count\",\"plural\",{\"0\":\"りんごが1つもありません\",\"1\":[\"りんごが \",\"#\",\" 個あります\"],\"other\":[\"りんごが \",\"#\",\" 個あります\"]}]],\"/8oksJ\":\"おはよう\",\"oPppWr\":[\"こんにちは、<0>\",[\"name\"],\"</0>さん\"],\"QIa4tO\":\"こんばんは\",\"WeBsyq\":\"ホーム\"}")as Messages;

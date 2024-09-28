@@ -1,12 +1,14 @@
 import { t } from '@lingui/macro'
-
 import React from 'react'
-
-import { allMessages, getI18nInstance } from '~/src/i18n/util/appRouterI18n'
-import { LinguiClientProvider } from '~/src/i18n/util/LinguiClientProvider'
-import { locales } from '~/src/i18n/util/locales'
-import type { PageLangParam } from '~/src/i18n/util/type'
-import { withLinguiLayout } from '~/src/i18n/util/withLinguiLayout'
+import { Nav } from '~/src/component/Nav'
+import {
+  allMessages,
+  getI18nInstance,
+  LinguiClientProvider,
+  locales,
+  type PageLangParam,
+  withLinguiLayout,
+} from '~/src/i18n/util'
 import './globals.css'
 
 export async function generateStaticParams() {
@@ -30,7 +32,9 @@ const RootLayout = withLinguiLayout(async ({ children, params }) => {
           initialLocale={lang}
           initialMessages={allMessages[lang]}
         >
-          {children}
+          <Nav>
+            {children}
+          </Nav>
         </LinguiClientProvider>
       </body>
     </html>

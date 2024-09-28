@@ -1,7 +1,7 @@
 import type { I18n, Messages } from '@lingui/core'
 import type { SupportedLocales } from './type'
 import { setupI18n } from '@lingui/core'
-import { locales } from './locales'
+import { defaultLocale, locales } from './locales'
 import 'server-only'
 
 async function loadCatalog(locale: SupportedLocales): Promise<{ [k: string]: Messages }> {
@@ -29,5 +29,5 @@ export function getI18nInstance(locale: SupportedLocales): I18n {
   if (!allI18nInstances[locale]) {
     console.warn(`No i18n instance found for locale "${locale}"`)
   }
-  return allI18nInstances[locale] || allI18nInstances.ja
+  return allI18nInstances[locale] || allI18nInstances[defaultLocale]
 }

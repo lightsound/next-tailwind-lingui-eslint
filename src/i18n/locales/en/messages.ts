@@ -1,1 +1,1 @@
-/*eslint-disable*/import type{Messages}from"@lingui/core";export const messages=JSON.parse("{\"Cu2stU\":\"Hello\",\"WeBsyq\":\"Home\"}")as Messages;
+/*eslint-disable*/import type{Messages}from"@lingui/core";export const messages=JSON.parse("{\"o4JQws\":[[\"count\",\"plural\",{\"0\":\"There are no apples.\",\"1\":\"There is one apple.\",\"other\":[\"There are \",\"#\",\" apples.\"]}]],\"/8oksJ\":\"Good morning\",\"oPppWr\":[\"Hello, <0>\",[\"name\"],\"</0>!\"],\"QIa4tO\":\"Good evening\",\"WeBsyq\":\"Home\"}")as Messages;

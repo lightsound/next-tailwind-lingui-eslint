@@ -1,23 +1,56 @@
 {
-  "Cu2stU": {
-    "translation": "こんにちは",
-    "message": "こんにちは",
+  "o4JQws": {
+    "translation": "",
+    "message": "{count, plural, =0 {りんごが1つもありません} =1 {りんごが # 個あります} other {りんごが # 個あります}}",
     "comments": [],
     "origin": [
       [
-        "src/app/[lang]/page.tsx",
-        7
+        "src/component/Greeting.tsx",
+        32
+      ]
+    ]
+  },
+  "/8oksJ": {
+    "translation": "",
+    "message": "おはよう",
+    "comments": [],
+    "origin": [
+      [
+        "src/component/Greeting.tsx",
+        12
+      ]
+    ]
+  },
+  "oPppWr": {
+    "translation": "",
+    "message": "こんにちは、<0>{name}</0>さん",
+    "comments": [],
+    "origin": [
+      [
+        "src/component/Greeting.tsx",
+        18
+      ]
+    ]
+  },
+  "QIa4tO": {
+    "translation": "",
+    "message": "こんばんは",
+    "comments": [],
+    "origin": [
+      [
+        "src/component/Greeting.tsx",
+        28
       ]
     ]
   },
   "WeBsyq": {
-    "translation": "ホーム",
+    "translation": "",
     "message": "ホーム",
     "comments": [],
     "origin": [
       [
         "src/app/[lang]/layout.tsx",
-        20
+        22
       ]
     ]
   }

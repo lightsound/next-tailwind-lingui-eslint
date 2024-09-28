@@ -1,9 +1,9 @@
-import { Greeting } from '~/src/component/Greeting'
+import { ClientGreeting } from '~/src/component/ClientGreeting'
 import { withLinguiPage } from '~/src/i18n/util/withLinguiPage'
 
 const Page = withLinguiPage(() => {
   return (
-    <Greeting />
+    <ClientGreeting />
   )
 })
 
